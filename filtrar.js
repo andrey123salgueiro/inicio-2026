@@ -1,10 +1,10 @@
-const usuarios = [
-    { nome: "Carlos", idade: 32},
+const usuarios = [ // const cria uma variavel que armazena uma lista
+    { nome: "Carlos", idade: 32}, // dentro do array temos dois objetos com as propriedades nome e idade
     { nome: "Ana", idade: 28},
     { nome: "Felipe", idade: 40}
 ];
 
-// Encontrando um objeto
+// Encontrando um objeto - o 'find' vai buscar o resultado - === busca exatamente igual
 const ana = usuarios.find(usuario => usuario.nome === "Ana");
 console.log(ana);
 
